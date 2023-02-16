@@ -1,0 +1,58 @@
+.navbar-relative{
+  position:relative;
+}
+.navbar{
+  position: fixed;
+  z-index: 1000;
+  margin-top: 0px;
+  width: 100%;
+  background-color: var(--light-color);
+  box-shadow: 0 3px 2px -2px gray;
+  
+}
+.body{
+  background-color: #dfe4e8;
+}
+.navbar a{
+  font-family: 'Kanit', sans-serif;
+  color: var(--main-color) !important;
+}
+.navbar-brand{
+  margin-left: 80px;
+}
+
+.navbar-brand img{
+  width: 45px;
+  box-shadow:  20px 20px 60px #bebebe,
+}
+
+.navbar-nav {
+  margin-right: 50px;
+}
+
+.nav-item {
+  margin: 5px;
+}
+.nav-item a:hover{
+  background-color: var(--main-color);
+  border-radius: 8px;
+  color: black !important;
+}
+
+.components{
+  min-height: 100vh;
+}
+
+.icon-navbar{
+  margin-right: 5px;
+}
+
+@media (max-width: 991px){
+  .nav-item a{
+    width: 100%;
+    margin: 0;
+  }
+  .navbar-nav{
+    margin: 0px;
+  }
+}

@@ -1,0 +1,31 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about h1 {
+    margin-top  : 20px;
+}
+
+.text-block-location {
+    margin-top: 5px;
+    padding: 0px 10px;
+    max-width: 900px;
+    text-align: center;
+  }
+
+.map {
+    width: 100%;
+    margin: 15px 0;
+    padding: 0 50px;
+    height: 600px;
+    border: 0;
+}
+
+@media (max-width : 991px ) {
+    .map {
+        max-height: 300px;
+    }
+}

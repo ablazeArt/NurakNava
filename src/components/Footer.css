@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    padding: 20px 0px 20px;
+    text-align: center;
+    font-size: 1rem;
+    color: var(--heading-color);
+}
+
+.footer-content {
+    display: flex;
+}
+
+.footer-content p{
+    padding: 0px 5px;
+    margin: 0px;
+}
+
+.license {
+    display: block;
+    width: 100%;
+    margin: 5px 0px 0px;
+}
+
+@media (max-width: 991px){
+    .footer-content {
+        display: block;
+    }
+    
+    .space {
+        display: none;
+    }
+}
+

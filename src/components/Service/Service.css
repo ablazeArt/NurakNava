@@ -1,0 +1,37 @@
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0px 10px;
+}
+
+.service h1 {
+  margin-top: 35px;
+}
+
+.service-block {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+  background-color: var(--light-color);
+  max-width: 300px;
+  min-width: 200px;
+  margin: 5px 5px 15px;
+  border-radius: 9px;
+}
+
+.service-block .heading {
+  font-size: 1.2rem;
+  margin: 0px 0px 15px;
+}
+
+.icon-service {
+    font-size: 3rem;
+    margin-bottom:20px;
+}
+
+@media (max-width: 991px) {
+}

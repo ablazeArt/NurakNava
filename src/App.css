@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Thai:wght@300&display=swap');
+
+:root {
+  --main-color: #d89a52;
+  --block-color: #eeeae5;
+  --light-color: #f9f8f6;
+  --heading-color: #80684c;
+  --heading-color-hover: #a28a6e;
+}
+
+* {
+  font-family: 'Noto Serif Thai', serif;
+}
+
+.body {
+  padding-top: 68px;
+}

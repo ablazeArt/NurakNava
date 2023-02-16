@@ -1,0 +1,114 @@
+.main-block {
+  margin: 0px 10px;
+  border-left: 1px solid rgb(168, 165, 165);
+  border-right: 1px solid rgb(168, 165, 165);
+  box-shadow: 0px 8px 10px -4px gray,6px 0 4px -4px #999, -6px 0 4px -4px #999;
+  -moz-box-shadow:0px 8px 10px -4px gray,  6px 0 4px -4px #999, -6px 0 4px -4px #999;
+  -webkit-box-shadow:0px 8px 10px -4px gray,  6px 0 4px -4px #999, -6px 0 4px -4px #999;
+  background-color: var(--light-color);
+}
+
+.home-img {
+  padding: 20px;
+}
+
+.home-img img {
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.home-about {
+  background-color: var(--block-color);
+}
+
+.home-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 35px 20px;
+  padding: 10px 0px;
+  border: 1px solid var(--main-color);
+}
+
+.heading {
+  display: inline-block;
+  font-family: "CormorantGaramond-Light";
+  /* position: relative; */
+  padding-bottom: 11px;
+  color: var(--heading-color);
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--heading-color);
+}
+/* .home-about-content .heading::after {
+  content: "";
+  position: absolute;
+  bottom: 1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  height: 20px;
+  background-image: url(https://png.pngtree.com/png-vector/20200801/ourmid/pngtree-black-simple-and-proportional-thin-line-png-image_2319135.jpg);
+  background-position: center center; 
+  background-size: contain; ทำให้sizeไม่เปลี่ยน
+  background-repeat: no-repeat;
+} */
+
+.text-block-home {
+  margin-top: 5px;
+  padding: 0px 10px;
+  max-width: 650px;
+  text-align: center;
+}
+
+.line-under-text-block {
+  height: 1px;
+  background-color: var(--main-color);
+  width: 10%;
+}
+
+.room {
+  text-align: center;
+  display: block;
+  padding: 0px;
+}
+
+.room .item {
+  display: inline-block;
+  padding: 15px 20px 0px;
+  font-size: 19px;
+}
+
+.room .item a {
+  text-decoration: none;
+  color: var(--heading-color);
+}
+
+.room .item a:hover {
+  color: var(--heading-color-hover);
+}
+
+.light-bg {
+  background-color: var(--light-color);
+}
+
+.dark-bg {
+  background-color: var(--block-color);
+}
+
+.carousel {
+  max-width: 1200px;
+}
